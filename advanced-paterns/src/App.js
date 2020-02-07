@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import testUncontrolled from './components/testUncontrolled';
 
-import Uncontrolled from './components/uncontrolled'
+//import Uncontrolled from './components/uncontrolled'
 
 class App extends Component {
   render() {
@@ -13,9 +13,10 @@ class App extends Component {
         
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
+          <testUncontrolled/>
         </div>
-        <Uncontrolled />
-        <testUncontrolled/>
+       
+       
       </div>
     )
   }
